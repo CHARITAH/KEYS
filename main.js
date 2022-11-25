@@ -1,4 +1,4 @@
-canvas = document.getElementById("mycanvas");
+canvas = document.getElementById('mycanvas');
 ctx = canvas.getContext("2d");
 
 img_width = 300;
@@ -20,7 +20,7 @@ function uploadimg() {
 	ctx.drawImage(img_imgTag, img_x, img_y, img_width, img_height);
 }
 
-window.addEventListener("keydown", my_keydown)
+window.addEventListener("keydown", my_keydown);
 
 function my_keydown(e)
 {
@@ -31,7 +31,7 @@ function my_keydown(e)
 		{
 			aplhabetkey();
 			document.getElementById("d1").innerHTML="You pressed Alphabet Key";
-			console.log("alphabet key")
+			console.log("alphabet key");
 		}
 	else{
 		otherkey();
@@ -42,7 +42,7 @@ function my_keydown(e)
 		{
 			numberkey();
 			document.getElementById("d1").innerHTML="You pressed Number Key";
-			console.log("number key")
+			console.log("number key");
 		}
 	else{
 		otherkey();
@@ -53,7 +53,7 @@ function my_keydown(e)
 		{
 			arrowkey();
 			document.getElementById("d1").innerHTML="You pressed arrow Key";
-			console.log("arrow key")
+			console.log("arrow key");
 		}
 	else{
 		otherkey();
@@ -64,7 +64,7 @@ function my_keydown(e)
 		{
 			arrowkey();
 			document.getElementById("d1").innerHTML="You pressed arrow Key";
-			console.log("arrow key")
+			console.log("arrow key");
 		}
 	else{
 		otherkey();
